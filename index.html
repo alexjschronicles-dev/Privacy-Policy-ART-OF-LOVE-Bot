@@ -3,1349 +3,290 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="LOVE OF ART BOT - Enterprise Privacy Policy & Security Portal. GDPR compliant, enterprise-grade security and data protection for Discord communities." />
-    <meta name="keywords" content="LOVE OF ART BOT, Discord bot, privacy policy, security, data protection, GDPR, enterprise" />
-    <meta name="author" content="LOVE OF ART BOT / CHRONICLES COMMUNITY" />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="LOVE OF ART BOT - Privacy Policy & Security Portal" />
-    <meta property="og:description" content="Enterprise-grade privacy and security for Discord communities. Fully transparent, GDPR compliant, and always secure." />
-    <meta property="og:type" content="website" />
+    <title>Privacy Policy – LOVE OF ART BOT</title>
+    <meta name="description" content="Privacy Policy for LOVE OF ART BOT. Learn how we collect, use, and protect your data." />
     <meta name="theme-color" content="#8B5CF6" />
-
-    <link rel="preconnect" href="https://rsms.me/" />
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%238B5CF6'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='white' font-family='Arial'%3EA%3C/text%3E%3C/svg%3E" />
-
-    <title>LOVE OF ART BOT — Enterprise Privacy Policy & Security Portal</title>
 </head>
 <body>
 
-    <!-- ===== PARTICLE CANVAS ===== -->
-    <canvas id="particleCanvas" aria-hidden="true"></canvas>
-
-    <!-- ===== NAVBAR ===== -->
-    <nav class="navbar" id="navbar" role="navigation" aria-label="Main Navigation">
-        <div class="nav-container">
-            <a href="#" class="nav-logo" aria-label="LOVE OF ART BOT Home">
-                <span class="logo-icon">◆</span>
-                <span class="logo-text">LOVE OF ART <span class="gradient-text">BOT</span></span>
-            </a>
-            <div class="nav-links" id="navLinks">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#privacy" class="nav-link">Privacy</a>
-                <a href="#security" class="nav-link">Security</a>
-                <a href="#rights" class="nav-link">Data Rights</a>
-                <a href="#faq" class="nav-link">FAQ</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-actions">
-                <a href="https://discord.gg/Rk4w7s5J6U" class="btn btn-support" target="_blank" rel="noopener noreferrer">
-                    <span class="btn-icon">✦</span> Join Support
-                </a>
-                <a href="#contact" class="btn btn-primary">Contact Team</a>
-                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+    <!-- ========== STICKY NAVBAR ========== -->
+    <header class="navbar" id="navbar">
+        <div class="navbar__inner container">
+            <a href="#" class="navbar__logo">LOVE OF ART BOT</a>
+            <nav class="navbar__nav" id="navMenu">
+                <ul class="navbar__links">
+                    <li><a href="#privacy" class="navbar__link">Privacy Policy</a></li>
+                    <li><a href="#data-usage" class="navbar__link">Data Usage</a></li>
+                    <li><a href="#rights" class="navbar__link">User Rights</a></li>
+                    <li><a href="#contact" class="navbar__link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="navbar__actions">
+                <a href="https://discord.gg/Rk4w7s5J6U" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--sm">Join Support Server</a>
+                <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
                     <span></span><span></span><span></span>
                 </button>
             </div>
         </div>
-    </nav>
+    </header>
 
-    <!-- ===== HERO SECTION ===== -->
-    <section class="hero" id="home">
-        <div class="aurora-bg" aria-hidden="true">
-            <div class="aurora aurora-1"></div>
-            <div class="aurora aurora-2"></div>
-            <div class="aurora aurora-3"></div>
-        </div>
-        <div class="hero-content">
-            <div class="hero-badge reveal-up">
-                <span class="badge-dot"></span>
-                Enterprise Security Platform
-            </div>
-            <h1 class="hero-title reveal-up">
-                PRIVACY FIRST.<br />
-                <span class="gradient-text">SECURITY ALWAYS.</span>
-            </h1>
-            <p class="hero-subtitle reveal-up">
-                LOVE OF ART BOT is committed to transparency, data protection, and enterprise-grade
-                security for Discord communities worldwide.
-            </p>
-            <div class="hero-actions reveal-up">
-                <a href="#privacy" class="btn btn-hero-primary">
-                    Read Privacy Policy <span class="btn-arrow">→</span>
-                </a>
-                <a href="#rights" class="btn btn-hero-secondary">
-                    Data Rights
-                </a>
-                <a href="https://discord.gg/Rk4w7s5J6U" class="btn btn-hero-ghost" target="_blank" rel="noopener noreferrer">
-                    Join Support Server
-                </a>
-            </div>
-            <div class="trust-badges reveal-up">
-                <div class="trust-badge">
-                    <span class="badge-check">✓</span> GDPR Compliant
-                </div>
-                <div class="trust-badge">
-                    <span class="badge-check">✓</span> Enterprise Security
-                </div>
-                <div class="trust-badge">
-                    <span class="badge-check">✓</span> Privacy Focused
-                </div>
-                <div class="trust-badge">
-                    <span class="badge-check">✓</span> Secure Infrastructure
-                </div>
-            </div>
-        </div>
-        <div class="hero-glow" aria-hidden="true"></div>
-    </section>
-
-    <!-- ===== TRUST METRICS ===== -->
-    <section class="metrics" id="metrics">
-        <div class="metrics-grid">
-            <div class="metric-card reveal-up">
-                <div class="metric-value"><span class="counter" data-target="99.99">0</span>%</div>
-                <div class="metric-label">Service Reliability</div>
-            </div>
-            <div class="metric-card reveal-up">
-                <div class="metric-value"><span class="counter" data-target="100">0</span>%</div>
-                <div class="metric-label">Privacy Transparency</div>
-            </div>
-            <div class="metric-card reveal-up">
-                <div class="metric-value">256-bit</div>
-                <div class="metric-label">Encryption</div>
-            </div>
-            <div class="metric-card reveal-up">
-                <div class="metric-value">24/7</div>
-                <div class="metric-label">Threat Monitoring</div>
-            </div>
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+        <div class="hero__bg"></div>
+        <div class="hero__content container">
+            <span class="hero__badge">Privacy Policy</span>
+            <h1 class="hero__title">LOVE OF ART BOT<br />PRIVACY POLICY</h1>
+            <p class="hero__subtitle">Your privacy and security are important to us. This policy explains what information is collected, how it is used, and how we protect it.</p>
+            <span class="hero__updated">Last Updated: June 12, 2026</span>
         </div>
     </section>
 
-    <!-- ===== PRIVACY HIGHLIGHTS ===== -->
+    <!-- ========== PRIVACY CONTENT ========== -->
     <section class="section" id="privacy">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Privacy First</span>
-            <h2 class="section-title">Enterprise <span class="gradient-text">Protection</span></h2>
-            <p class="section-desc">Every layer of our infrastructure is designed to protect your community's data.</p>
-        </div>
-        <div class="highlights-grid">
-            <div class="glass-card highlight-card reveal-up">
-                <div class="card-icon">🔒</div>
-                <h3>Data Protection</h3>
-                <p>AES-256 encryption at rest and in transit. Your data is always secure.</p>
+        <div class="container">
+            <div class="section__header reveal">
+                <h2 class="section__title">Privacy Policy</h2>
+                <p class="section__desc">Effective Date: June 12, 2026 | Supersedes all previous versions.</p>
             </div>
-            <div class="glass-card highlight-card reveal-up">
-                <div class="card-icon">🛡</div>
-                <h3>Security Monitoring</h3>
-                <p>Real-time threat detection and automated response systems.</p>
-            </div>
-            <div class="glass-card highlight-card reveal-up">
-                <div class="card-icon">📊</div>
-                <h3>Analytics Transparency</h3>
-                <p>Full visibility into what data is collected and how it's used.</p>
-            </div>
-            <div class="glass-card highlight-card reveal-up">
-                <div class="card-icon">⚡</div>
-                <h3>Real-Time Protection</h3>
-                <p>Instant response to security events and policy violations.</p>
-            </div>
-            <div class="glass-card highlight-card reveal-up">
-                <div class="card-icon">🎙</div>
-                <h3>Voice Privacy</h3>
-                <p>Voice analytics processed with strict privacy boundaries.</p>
-            </div>
-            <div class="glass-card highlight-card reveal-up">
-                <div class="card-icon">👥</div>
-                <h3>Community Safety</h3>
-                <p>Proactive tools to keep your community safe and compliant.</p>
+
+            <div class="privacy-content">
+                <!-- Information We Collect -->
+                <article class="privacy-block reveal">
+                    <h3 id="collect">Information We Collect</h3>
+                    <p>LOVE OF ART BOT collects only the data necessary to provide its moderation, security, and utility features within Discord servers. The bot does <strong>not</strong> collect personal messages, private channel content, or any data beyond what is explicitly listed below.</p>
+                    <div class="cards-grid cols-3">
+                        <div class="card glass">
+                            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg></div>
+                            <h4 class="card__title">User IDs</h4>
+                            <p class="card__text">Discord User IDs are stored to associate configuration, warnings, and moderation actions with individual accounts.</p>
+                        </div>
+                        <div class="card glass">
+                            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+                            <h4 class="card__title">Guild IDs</h4>
+                            <p class="card__text">Server (Guild) IDs are stored to maintain per-server configuration and settings.</p>
+                        </div>
+                        <div class="card glass">
+                            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/></svg></div>
+                            <h4 class="card__title">Channel IDs</h4>
+                            <p class="card__text">Channel IDs are stored for logging, configuration, and command routing purposes.</p>
+                        </div>
+                        <div class="card glass">
+                            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-3-3.87"/><path d="M7 21v-2a4 4 0 0 1 3-3.87"/><circle cx="12" cy="7" r="4"/></svg></div>
+                            <h4 class="card__title">Role IDs</h4>
+                            <p class="card__text">Role IDs are processed for permission management and automated role assignment features.</p>
+                        </div>
+                        <div class="card glass">
+                            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div>
+                            <h4 class="card__title">Configuration Data</h4>
+                            <p class="card__text">Server preferences, prefix settings, and feature toggles are stored to preserve your customizations.</p>
+                        </div>
+                        <div class="card glass">
+                            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+                            <h4 class="card__title">Moderation Logs</h4>
+                            <p class="card__text">Warnings, kicks, bans, and timeouts are recorded with timestamps for accountability and review.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Data We Process -->
+                <article class="privacy-block reveal">
+                    <h3 id="process">Data We Process</h3>
+                    <p>Beyond stored data, the bot temporarily processes command inputs, message content for prefix detection, and interaction payloads to execute your requested features. This ephemeral data is <strong>not persisted</strong> beyond the execution lifecycle unless explicitly required for logging.</p>
+                </article>
+
+                <!-- How We Use Data -->
+                <article class="privacy-block reveal">
+                    <h3 id="data-usage">How We Use Data</h3>
+                    <div class="cards-grid cols-2">
+                        <div class="card glass">
+                            <h4 class="card__title">🛡  Moderation</h4>
+                            <p class="card__text">Enforce server rules through automated and manual moderation actions including warnings, kicks, and bans.</p>
+                        </div>
+                        <div class="card glass">
+                            <h4 class="card__title">🔒  Security</h4>
+                            <p class="card__text">Detect and prevent abuse, spam, and unauthorized access to server administration features.</p>
+                        </div>
+                        <div class="card glass">
+                            <h4 class="card__title">⚙  Command Processing</h4>
+                            <p class="card__text">Parse and execute user commands, returning appropriate responses based on server configuration.</p>
+                        </div>
+                        <div class="card glass">
+                            <h4 class="card__title">💾  Configuration Storage</h4>
+                            <p class="card__text">Persist server-specific settings so your preferences remain consistent across bot restarts.</p>
+                        </div>
+                        <div class="card glass">
+                            <h4 class="card__title">📊  Analytics</h4>
+                            <p class="card__text">Aggregate anonymized usage statistics to improve bot performance and feature development.</p>
+                        </div>
+                        <div class="card glass">
+                            <h4 class="card__title">📋  Logging</h4>
+                            <p class="card__text">Maintain audit trails of moderation actions and configuration changes for server transparency.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Data Retention -->
+                <article class="privacy-block reveal">
+                    <h3 id="retention">Data Retention</h3>
+                    <div class="cards-grid cols-2">
+                        <div class="card glass">
+                            <h4 class="card__title">⏳  Temporary Data</h4>
+                            <p class="card__text">Ephemeral processing data (command arguments, interaction payloads) is discarded immediately after execution.</p>
+                        </div>
+                        <div class="card glass">
+                            <h4 class="card__title">📁  Stored Configuration</h4>
+                            <p class="card__text">Server configurations are retained for the lifetime of bot integration or until manually reset.</p>
+                        </div>
+                        <div class="card glass">
+                            <h4 class="card__title">📜  Moderation History</h4>
+                            <p class="card__text">Moderation records are retained for 90 days, after which they are automatically purged.</p>
+                        </div>
+                        <div class="card glass">
+                            <h4 class="card__title">🗑  Deletion Requests</h4>
+                            <p class="card__text">Data deletion requests are processed within 30 days. Backups are purged within 90 days.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Data Security -->
+                <article class="privacy-block reveal">
+                    <h3 id="security">Data Security</h3>
+                    <p>We implement enterprise-grade security measures to protect your data at rest and in transit.</p>
+                    <div class="cards-grid cols-4 security-grid">
+                        <div class="card glass card--center">
+                            <div class="card__icon card__icon--lg">🔒</div>
+                            <h4 class="card__title">Encryption</h4>
+                            <p class="card__text">All data encrypted at rest (AES-256) and in transit (TLS 1.3).</p>
+                        </div>
+                        <div class="card glass card--center">
+                            <div class="card__icon card__icon--lg">🛡</div>
+                            <h4 class="card__title">Access Control</h4>
+                            <p class="card__text">Role-based access with least-privilege principle enforced.</p>
+                        </div>
+                        <div class="card glass card--center">
+                            <div class="card__icon card__icon--lg">⚡</div>
+                            <h4 class="card__title">Infrastructure</h4>
+                            <p class="card__text">Secure, isolated hosting environment with regular patching.</p>
+                        </div>
+                        <div class="card glass card--center">
+                            <div class="card__icon card__icon--lg">📋</div>
+                            <h4 class="card__title">Audit Logging</h4>
+                            <p class="card__text">All administrative access is logged and reviewed periodically.</p>
+                        </div>
+                    </div>
+                    <!-- Security Status Card -->
+                    <div class="status-card glass reveal">
+                        <div class="status-card__indicator">
+                            <span class="status-dot status-dot--operational"></span>
+                            <span>System Status:</span>
+                            <strong>Operational</strong>
+                        </div>
+                        <p>All systems are secure and running normally. No incidents reported.</p>
+                    </div>
+                </article>
+
+                <!-- Third-Party Services -->
+                <article class="privacy-block reveal">
+                    <h3 id="third-party">Third-Party Services</h3>
+                    <p>LOVE OF ART BOT relies on Discord's API for core functionality. We do <strong>not</strong> sell, rent, or share your data with third parties for marketing purposes. The bot may integrate with Discord-provided infrastructure services (such as Discord CDN) solely for feature delivery.</p>
+                </article>
+
+                <!-- User Rights -->
+                <article class="privacy-block reveal">
+                    <h3 id="rights">User Rights</h3>
+                    <p>As a user, you have the following rights regarding your data. To exercise any of these rights, contact us through the channels below.</p>
+                    <div class="cards-grid cols-2">
+                        <div class="card glass">
+                            <h4 class="card__title">📄  Request Data</h4>
+                            <p class="card__text">Request a copy of all stored data associated with your User ID.</p>
+                        </div>
+                        <div class="card glass">
+                            <h4 class="card__title">🗑  Request Deletion</h4>
+                            <p class="card__text">Request complete removal of all stored data associated with your account.</p>
+                        </div>
+                        <div class="card glass">
+                            <h4 class="card__title">✏️  Request Corrections</h4>
+                            <p class="card__text">Request corrections to any inaccurate or incomplete data we hold.</p>
+                        </div>
+                        <div class="card glass">
+                            <h4 class="card__title">❓  Privacy Questions</h4>
+                            <p class="card__text">Ask any questions about our privacy practices or data handling procedures.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Data Deletion Requests -->
+                <article class="privacy-block reveal">
+                    <h3 id="deletion">Data Deletion Requests</h3>
+                    <p>To request data deletion, please join our <a href="https://discord.gg/Rk4w7s5J6U" target="_blank" rel="noopener">Support Server</a> and submit a ticket, or email us via the contact form on our website. We will verify your identity and process your request within 30 calendar days. Please note that some data may be retained for a short period for backup and legal compliance purposes before full deletion.</p>
+                </article>
+
+                <!-- Children's Privacy -->
+                <article class="privacy-block reveal">
+                    <h3 id="children">Children's Privacy</h3>
+                    <p>LOVE OF ART BOT is not directed at children under the age of 13 (or the applicable age of consent in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child has provided us with personal data, please contact us immediately, and we will take steps to delete that information promptly.</p>
+                </article>
+
+                <!-- Changes To This Policy -->
+                <article class="privacy-block reveal">
+                    <h3 id="changes">Changes To This Policy</h3>
+                    <p>We may update this Privacy Policy from time to time. Material changes will be communicated via the bot's announcement channel in the Support Server and an updated "Last Updated" date at the top of this page. We encourage you to review this policy periodically.</p>
+                </article>
+
+                <!-- Contact Information -->
+                <article class="privacy-block reveal">
+                    <h3 id="contact">Contact Information</h3>
+                    <p>For privacy-related inquiries, data requests, or to report a security concern:</p>
+                    <div class="cards-grid cols-2">
+                        <div class="card glass">
+                            <h4 class="card__title">💬  Support Server</h4>
+                            <p class="card__text"><a href="https://discord.gg/Rk4w7s5J6U" target="_blank" rel="noopener noreferrer">discord.gg/Rk4w7s5J6U</a></p>
+                        </div>
+                        <div class="card glass">
+                            <h4 class="card__title">🌐  Privacy Contact</h4>
+                            <p class="card__text"><a href="https://loveofart.online" target="_blank" rel="noopener noreferrer">loveofart.online</a></p>
+                        </div>
+                    </div>
+                    <div class="response-badge glass">
+                        <span class="response-badge__icon">⏱</span>
+                        <span><strong>Response Time:</strong> Within 24–48 hours</span>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- ===== INFORMATION WE COLLECT ===== -->
-    <section class="section section-dark" id="collect">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Data Collection</span>
-            <h2 class="section-title">Information We <span class="gradient-text">Collect</span></h2>
-            <p class="section-desc">We only collect data necessary for platform operations and security.</p>
-        </div>
-        <div class="collect-grid">
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">🆔</span> User IDs</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">🏠</span> Guild IDs</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">📎</span> Channel IDs</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">🎭</span> Role IDs</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">📝</span> Moderation Logs</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">🎤</span> Voice Analytics</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">⚙</span> Server Configuration</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">🔐</span> Security Events</div>
-        </div>
-        <div class="collect-notice reveal-up">
-            <span class="notice-icon">ℹ️</span>
-            LOVE OF ART BOT does not permanently store message content unless required for moderation, security, compliance, or logging purposes.
-        </div>
-    </section>
-
-    <!-- ===== HOW DATA IS USED ===== -->
-    <section class="section" id="usage">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Data Usage</span>
-            <h2 class="section-title">How Data Is <span class="gradient-text">Used</span></h2>
-            <p class="section-desc">Your data powers essential platform features and security systems.</p>
-        </div>
-        <div class="usage-grid">
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">01</div>
-                <h3>Moderation Systems</h3>
-                <p>Automated moderation tools to keep communities safe.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">02</div>
-                <h3>Anti-Raid Protection</h3>
-                <p>Detect and prevent coordinated attacks in real-time.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">03</div>
-                <h3>Security Monitoring</h3>
-                <p>Continuous threat detection and incident response.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">04</div>
-                <h3>Voice Analytics</h3>
-                <p>Anonymous voice activity insights for server management.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">05</div>
-                <h3>Automation Systems</h3>
-                <p>Smart automation to streamline server operations.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">06</div>
-                <h3>Community Management</h3>
-                <p>Tools to manage and grow healthy communities.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">07</div>
-                <h3>Audit Logging</h3>
-                <p>Complete audit trail of all platform actions.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">08</div>
-                <h3>Platform Improvements</h3>
-                <p>Anonymous data to improve platform performance.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== SECURITY CENTER ===== -->
-    <section class="section section-dark" id="security">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Security Center</span>
-            <h2 class="section-title">Enterprise <span class="gradient-text">Security</span></h2>
-            <p class="section-desc">Military-grade protection for your Discord community.</p>
-        </div>
-        <div class="security-dashboard reveal-up">
-            <div class="dashboard-header">
-                <h3>Security Status Dashboard</h3>
-                <span class="status-badge operational">● Operational</span>
-            </div>
-            <div class="dashboard-grid">
-                <div class="dashboard-item">
-                    <span class="dash-label">System Status</span>
-                    <span class="dash-value status-up">● Operational</span>
-                </div>
-                <div class="dashboard-item">
-                    <span class="dash-label">API</span>
-                    <span class="dash-value status-up">● Online</span>
-                </div>
-                <div class="dashboard-item">
-                    <span class="dash-label">Infrastructure</span>
-                    <span class="dash-value status-up">● Secure</span>
-                </div>
-                <div class="dashboard-item">
-                    <span class="dash-label">Database</span>
-                    <span class="dash-value status-up">● Protected</span>
-                </div>
-            </div>
-        </div>
-        <div class="security-features-grid">
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">🔐</span></div>
-                <h3>AES Encryption</h3>
-                <p>Bank-grade 256-bit encryption for all data.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">🛡</span></div>
-                <h3>Threat Detection</h3>
-                <p>AI-powered real-time threat analysis.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">🔑</span></div>
-                <h3>Access Control</h3>
-                <p>Granular permissions and role-based access.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">📡</span></div>
-                <h3>Real-Time Monitoring</h3>
-                <p>24/7 surveillance of all platform activity.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">📋</span></div>
-                <h3>Audit Logs</h3>
-                <p>Complete immutable audit trail.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">✅</span></div>
-                <h3>Permission Validation</h3>
-                <p>Strict permission enforcement at every level.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">🚫</span></div>
-                <h3>Anti-Abuse Systems</h3>
-                <p>Automated abuse detection and prevention.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">🏗</span></div>
-                <h3>Infrastructure Protection</h3>
-                <p>DDoS protection and network security.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== DATA RETENTION TIMELINE ===== -->
-    <section class="section" id="retention">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Data Lifecycle</span>
-            <h2 class="section-title">Data Retention <span class="gradient-text">Timeline</span></h2>
-            <p class="section-desc">How we handle your data from collection to permanent deletion.</p>
-        </div>
-        <div class="timeline reveal-up">
-            <div class="timeline-progress" id="timelineProgress"></div>
-            <div class="timeline-item active" data-step="1">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Data Collection</h4>
-                    <p>Information is collected only when necessary for platform operations.</p>
-                </div>
-            </div>
-            <div class="timeline-item" data-step="2">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Processing</h4>
-                    <p>Data is processed in secure, isolated environments.</p>
-                </div>
-            </div>
-            <div class="timeline-item" data-step="3">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Storage</h4>
-                    <p>Encrypted storage with redundant backup systems.</p>
-                </div>
-            </div>
-            <div class="timeline-item" data-step="4">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Retention</h4>
-                    <p>Data retained only as long as necessary for specified purposes.</p>
-                </div>
-            </div>
-            <div class="timeline-item" data-step="5">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Deletion</h4>
-                    <p>Secure, irreversible deletion upon request or policy expiry.</p>
-                </div>
-            </div>
-        </div>
-        <div class="timeline-actions reveal-up">
-            <div class="glass-card action-card">
-                <h4>📄 User Data Requests</h4>
-                <p>Submit a request to access your stored data.</p>
-            </div>
-            <div class="glass-card action-card">
-                <h4>📋 Data Retention Policies</h4>
-                <p>Review our detailed data retention schedules.</p>
-            </div>
-            <div class="glass-card action-card">
-                <h4>🗑 Server Removal Requests</h4>
-                <p>Request complete removal of server data.</p>
-            </div>
-            <div class="glass-card action-card">
-                <h4>❌ Permanent Deletion Requests</h4>
-                <p>Request irreversible deletion of all associated data.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== USER RIGHTS ===== -->
-    <section class="section section-dark" id="rights">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Your Rights</span>
-            <h2 class="section-title">Data <span class="gradient-text">Rights</span></h2>
-            <p class="section-desc">You have full control over your data. These are your rights.</p>
-        </div>
-        <div class="rights-grid">
-            <div class="glass-card rights-card reveal-up">
-                <div class="rights-icon">👁</div>
-                <h3>Right to Access Data</h3>
-                <p>Request a copy of all data we hold about you at any time.</p>
-            </div>
-            <div class="glass-card rights-card reveal-up">
-                <div class="rights-icon">🗑</div>
-                <h3>Right to Request Deletion</h3>
-                <p>Request permanent deletion of your personal data.</p>
-            </div>
-            <div class="glass-card rights-card reveal-up">
-                <div class="rights-icon">✏️</div>
-                <h3>Right to Request Corrections</h3>
-                <p>Update or correct any inaccurate personal information.</p>
-            </div>
-            <div class="glass-card rights-card reveal-up">
-                <div class="rights-icon">📋</div>
-                <h3>Right to Request Information</h3>
-                <p>Know exactly how your data is being processed and used.</p>
-            </div>
-            <div class="glass-card rights-card reveal-up">
-                <div class="rights-icon">💬</div>
-                <h3>Right to Contact Support</h3>
-                <p>Speak directly with our privacy team about any concerns.</p>
-            </div>
-            <div class="glass-card rights-card reveal-up">
-                <div class="rights-icon">🔍</div>
-                <h3>Right to Privacy Transparency</h3>
-                <p>Full visibility into our data practices and policies.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== THIRD PARTY SERVICES ===== -->
-    <section class="section" id="third-party">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Third Party</span>
-            <h2 class="section-title">Third Party <span class="gradient-text">Services</span></h2>
-            <p class="section-desc">We carefully vet all third-party services that interact with our platform.</p>
-        </div>
-        <div class="third-party-grid">
-            <div class="glass-card third-card reveal-up">
-                <div class="third-icon">💬</div>
-                <h3>Discord API</h3>
-                <p>Core platform integration via Discord's official API for bot operations, message handling, and server interactions.</p>
-            </div>
-            <div class="glass-card third-card reveal-up">
-                <div class="third-icon">🌐</div>
-                <h3>Cloudflare</h3>
-                <p>Content delivery, DDoS protection, and DNS management ensuring fast and secure global access.</p>
-            </div>
-            <div class="glass-card third-card reveal-up">
-                <div class="third-icon">☁️</div>
-                <h3>Hosting Infrastructure</h3>
-                <p>Enterprise cloud providers for scalable, redundant, and secure hosting of all services.</p>
-            </div>
-            <div class="glass-card third-card reveal-up">
-                <div class="third-icon">📈</div>
-                <h3>Analytics Services</h3>
-                <p>Privacy-preserving analytics to improve platform performance without compromising user data.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== CHILDREN'S PRIVACY ===== -->
-    <section class="section section-dark" id="children">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Children's Privacy</span>
-            <h2 class="section-title">Protecting <span class="gradient-text">Minors</span></h2>
-            <p class="section-desc">We take child safety and privacy extremely seriously.</p>
-        </div>
-        <div class="children-content reveal-up">
-            <div class="glass-card children-card">
-                <h3>📋 Age Requirements</h3>
-                <p>LOVE OF ART BOT complies with all applicable age restrictions. Users must meet Discord's minimum age requirements (13+ or 16+ in certain regions) to use the platform. We do not knowingly collect or process data from users below the legal age of digital consent.</p>
-            </div>
-            <div class="glass-card children-card">
-                <h3>🎮 Discord Requirements</h3>
-                <p>We adhere to Discord's Terms of Service and Community Guidelines regarding minor safety. All moderation and security features are designed with additional safeguards for communities that may include younger users.</p>
-            </div>
-            <div class="glass-card children-card">
-                <h3>🔒 Data Protection</h3>
-                <p>Enhanced privacy controls and data minimization practices are applied to any data potentially related to minors. We maintain strict access controls and retention limits for all user data.</p>
-            </div>
-            <div class="glass-card children-card">
-                <h3>🛡 Safety Measures</h3>
-                <p>Proactive content filtering, anti-harassment tools, and automated safety systems help protect all community members. Server administrators have access to additional safety configuration options.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== DATA DELETION REQUEST ===== -->
-    <section class="section" id="deletion">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Data Deletion</span>
-            <h2 class="section-title">Request Data <span class="gradient-text">Deletion</span></h2>
-            <p class="section-desc">We process all deletion requests within 24 hours.</p>
-        </div>
-        <div class="deletion-card glass-card reveal-up">
-            <div class="deletion-content">
-                <div class="deletion-item">
-                    <span class="deletion-label">Support Server</span>
-                    <a href="https://discord.gg/Rk4w7s5J6U" class="deletion-link" target="_blank" rel="noopener noreferrer">discord.gg/Rk4w7s5J6U</a>
-                </div>
-                <div class="deletion-item">
-                    <span class="deletion-label">Privacy Email</span>
-                    <a href="mailto:privacy@loveofartbot.com" class="deletion-link">privacy@loveofartbot.com</a>
-                </div>
-                <div class="deletion-item">
-                    <span class="deletion-label">Response Time</span>
-                    <span class="deletion-value">Under 24 Hours</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== FAQ SECTION ===== -->
-    <section class="section section-dark" id="faq">
-        <div class="section-header reveal-up">
-            <span class="section-tag">FAQ</span>
-            <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
-            <p class="section-desc">Everything you need to know about our privacy and security practices.</p>
-        </div>
-        <div class="faq-container reveal-up">
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>What data is stored?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>We store only essential data required for platform operations: User IDs, Guild IDs, Channel IDs, Role IDs, moderation logs, voice analytics (non-content), server configuration, and security event logs. We do not permanently store message content unless required for moderation or compliance purposes.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>How secure is the platform?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>LOVE OF ART BOT employs enterprise-grade security including AES-256 encryption, real-time threat detection, DDoS protection, strict access controls, comprehensive audit logging, and 24/7 security monitoring. Our infrastructure is hosted on secure, redundant cloud providers with regular security audits.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>Can I delete my data?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Yes, absolutely. You have the right to request permanent deletion of your data at any time. Contact our privacy team via the support server or email, and we will process your request within 24 hours. All data is permanently and irreversibly deleted.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>Who can access my information?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Access to user data is strictly limited to authorized personnel only, with granular role-based access controls. We never sell your data to third parties. Third-party services (Discord API, Cloudflare, hosting providers) interact with data only as necessary for platform operations under strict contractual agreements.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>How long is data retained?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Data is retained only as long as necessary for the purposes it was collected. Retention periods vary by data type and are documented in our detailed retention policies. Upon request or when retention periods expire, data is securely and permanently deleted.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>How do I contact support?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>You can reach us through our Discord Support Server at discord.gg/Rk4w7s5J6U, email us at privacy@loveofartbot.com, or use the contact section on this page. Our privacy team typically responds within 24 hours.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== ENTERPRISE SECURITY SHOWCASE ===== -->
-    <section class="section" id="showcase">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Enterprise Grade</span>
-            <h2 class="section-title">Security <span class="gradient-text">Showcase</span></h2>
-            <p class="section-desc">Our platform meets the highest enterprise security standards.</p>
-        </div>
-        <div class="showcase-grid reveal-up">
-            <div class="glass-card showcase-card">
-                <div class="showcase-label">Security Grade</div>
-                <div class="showcase-value grade-a">A+</div>
-            </div>
-            <div class="glass-card showcase-card">
-                <div class="showcase-label">Compliance</div>
-                <div class="showcase-value compliance">Excellent</div>
-            </div>
-            <div class="glass-card showcase-card">
-                <div class="showcase-label">Encryption</div>
-                <div class="showcase-value encryption">Enabled</div>
-            </div>
-            <div class="glass-card showcase-card">
-                <div class="showcase-label">Monitoring</div>
-                <div class="showcase-value monitoring">24/7</div>
-            </div>
-            <div class="glass-card showcase-card">
-                <div class="showcase-label">Privacy Rating</div>
-                <div class="showcase-value privacy">Enterprise</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== CONTACT SECTION ===== -->
-    <section class="section section-dark" id="contact">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Get In Touch</span>
-            <h2 class="section-title">Contact Our <span class="gradient-text">Privacy Team</span></h2>
-            <p class="section-desc">We're here to help with any privacy or security concerns.</p>
-        </div>
-        <div class="contact-grid reveal-up">
-            <div class="glass-card contact-card">
-                <div class="contact-icon">💬</div>
-                <h3>Support Server</h3>
-                <p>Join our Discord community for direct support.</p>
-                <a href="https://discord.gg/Rk4w7s5J6U" class="btn btn-primary contact-btn" target="_blank" rel="noopener noreferrer">Join Server</a>
-            </div>
-            <div class="glass-card contact-card">
-                <div class="contact-icon">📧</div>
-                <h3>Privacy Email</h3>
-                <p>Send us an email for privacy-related inquiries.</p>
-                <a href="mailto:privacy@loveofartbot.com" class="btn btn-primary contact-btn">Send Email</a>
-            </div>
-            <div class="glass-card contact-card">
-                <div class="contact-icon">⏱</div>
-                <h3>Response Time</h3>
-                <p>We respond to all inquiries within 24 hours.</p>
-                <span class="response-badge">Under 24h</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== FOOTER ===== -->
+    <!-- ========== FOOTER ========== -->
     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-main">
-                <div class="footer-brand">
-                    <span class="footer-logo">◆ LOVE OF ART <span class="gradient-text">BOT</span></span>
-                    <p class="footer-desc">Enterprise Discord Moderation, Security, Analytics, Automation, and Community Management Platform.</p>
-                    <div class="footer-social">
-                        <a href="https://discord.gg/Rk4w7s5J6U" class="social-link" aria-label="Discord" target="_blank" rel="noopener noreferrer">Discord</a>
-                        <a href="#" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        <a href="#" class="social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
-                    </div>
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <h3>LOVE OF ART BOT</h3>
+                    <p>Secure · Transparent · Private</p>
                 </div>
-                <div class="footer-links">
-                    <div class="footer-col">
-                        <h4>Legal</h4>
-                        <a href="#privacy">Privacy Policy</a>
-                        <a href="#">Terms of Service</a>
-                        <a href="#rights">Data Rights</a>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Resources</h4>
-                        <a href="#security">Security</a>
-                        <a href="#faq">FAQ</a>
-                        <a href="#contact">Contact</a>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Community</h4>
-                        <a href="https://discord.gg/Rk4w7s5J6U" target="_blank" rel="noopener noreferrer">Support Server</a>
-                        <a href="#" target="_blank" rel="noopener noreferrer">Discord</a>
-                        <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    </div>
+                <div class="footer__links">
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="https://discord.gg/Rk4w7s5J6U" target="_blank" rel="noopener noreferrer">Support Server</a></li>
+                        <li><a href="https://loveofart.online" target="_blank" rel="noopener noreferrer">Website</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>© 2026 LOVE OF ART BOT. All Rights Reserved.</p>
-                <p>Made by <span class="gradient-text">CHRONICLES COMMUNITY</span></p>
+            <div class="footer__bottom">
+                <p>&copy; 2026 LOVE OF ART BOT. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- ===== BACK TO TOP ===== -->
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+    <!-- ========== BACK TO TOP ========== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
 
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
 </body>
-                                                                </html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="LOVE OF ART BOT - Enterprise Privacy Policy & Security Portal. GDPR compliant, enterprise-grade security and data protection for Discord communities." />
-    <meta name="keywords" content="LOVE OF ART BOT, Discord bot, privacy policy, security, data protection, GDPR, enterprise" />
-    <meta name="author" content="LOVE OF ART BOT / CHRONICLES COMMUNITY" />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="LOVE OF ART BOT - Privacy Policy & Security Portal" />
-    <meta property="og:description" content="Enterprise-grade privacy and security for Discord communities. Fully transparent, GDPR compliant, and always secure." />
-    <meta property="og:type" content="website" />
-    <meta name="theme-color" content="#8B5CF6" />
-
-    <link rel="preconnect" href="https://rsms.me/" />
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
-    <link rel="stylesheet" href="style.css" />
-
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%238B5CF6'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='white' font-family='Arial'%3EA%3C/text%3E%3C/svg%3E" />
-
-    <title>LOVE OF ART BOT — Enterprise Privacy Policy & Security Portal</title>
-</head>
-<body>
-
-    <!-- ===== PARTICLE CANVAS ===== -->
-    <canvas id="particleCanvas" aria-hidden="true"></canvas>
-
-    <!-- ===== NAVBAR ===== -->
-    <nav class="navbar" id="navbar" role="navigation" aria-label="Main Navigation">
-        <div class="nav-container">
-            <a href="#" class="nav-logo" aria-label="LOVE OF ART BOT Home">
-                <span class="logo-icon">◆</span>
-                <span class="logo-text">LOVE OF ART <span class="gradient-text">BOT</span></span>
-            </a>
-            <div class="nav-links" id="navLinks">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#privacy" class="nav-link">Privacy</a>
-                <a href="#security" class="nav-link">Security</a>
-                <a href="#rights" class="nav-link">Data Rights</a>
-                <a href="#faq" class="nav-link">FAQ</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-actions">
-                <a href="https://discord.gg/Rk4w7s5J6U" class="btn btn-support" target="_blank" rel="noopener noreferrer">
-                    <span class="btn-icon">✦</span> Join Support
-                </a>
-                <a href="#contact" class="btn btn-primary">Contact Team</a>
-                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
-                    <span></span><span></span><span></span>
-                </button>
-            </div>
-        </div>
-    </nav>
-
-    <!-- ===== HERO SECTION ===== -->
-    <section class="hero" id="home">
-        <div class="aurora-bg" aria-hidden="true">
-            <div class="aurora aurora-1"></div>
-            <div class="aurora aurora-2"></div>
-            <div class="aurora aurora-3"></div>
-        </div>
-        <div class="hero-content">
-            <div class="hero-badge reveal-up">
-                <span class="badge-dot"></span>
-                Enterprise Security Platform
-            </div>
-            <h1 class="hero-title reveal-up">
-                PRIVACY FIRST.<br />
-                <span class="gradient-text">SECURITY ALWAYS.</span>
-            </h1>
-            <p class="hero-subtitle reveal-up">
-                LOVE OF ART BOT is committed to transparency, data protection, and enterprise-grade
-                security for Discord communities worldwide.
-            </p>
-            <div class="hero-actions reveal-up">
-                <a href="#privacy" class="btn btn-hero-primary">
-                    Read Privacy Policy <span class="btn-arrow">→</span>
-                </a>
-                <a href="#rights" class="btn btn-hero-secondary">
-                    Data Rights
-                </a>
-                <a href="https://discord.gg/Rk4w7s5J6U" class="btn btn-hero-ghost" target="_blank" rel="noopener noreferrer">
-                    Join Support Server
-                </a>
-            </div>
-            <div class="trust-badges reveal-up">
-                <div class="trust-badge">
-                    <span class="badge-check">✓</span> GDPR Compliant
-                </div>
-                <div class="trust-badge">
-                    <span class="badge-check">✓</span> Enterprise Security
-                </div>
-                <div class="trust-badge">
-                    <span class="badge-check">✓</span> Privacy Focused
-                </div>
-                <div class="trust-badge">
-                    <span class="badge-check">✓</span> Secure Infrastructure
-                </div>
-            </div>
-        </div>
-        <div class="hero-glow" aria-hidden="true"></div>
-    </section>
-
-    <!-- ===== TRUST METRICS ===== -->
-    <section class="metrics" id="metrics">
-        <div class="metrics-grid">
-            <div class="metric-card reveal-up">
-                <div class="metric-value"><span class="counter" data-target="99.99">0</span>%</div>
-                <div class="metric-label">Service Reliability</div>
-            </div>
-            <div class="metric-card reveal-up">
-                <div class="metric-value"><span class="counter" data-target="100">0</span>%</div>
-                <div class="metric-label">Privacy Transparency</div>
-            </div>
-            <div class="metric-card reveal-up">
-                <div class="metric-value">256-bit</div>
-                <div class="metric-label">Encryption</div>
-            </div>
-            <div class="metric-card reveal-up">
-                <div class="metric-value">24/7</div>
-                <div class="metric-label">Threat Monitoring</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== PRIVACY HIGHLIGHTS ===== -->
-    <section class="section" id="privacy">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Privacy First</span>
-            <h2 class="section-title">Enterprise <span class="gradient-text">Protection</span></h2>
-            <p class="section-desc">Every layer of our infrastructure is designed to protect your community's data.</p>
-        </div>
-        <div class="highlights-grid">
-            <div class="glass-card highlight-card reveal-up">
-                <div class="card-icon">🔒</div>
-                <h3>Data Protection</h3>
-                <p>AES-256 encryption at rest and in transit. Your data is always secure.</p>
-            </div>
-            <div class="glass-card highlight-card reveal-up">
-                <div class="card-icon">🛡</div>
-                <h3>Security Monitoring</h3>
-                <p>Real-time threat detection and automated response systems.</p>
-            </div>
-            <div class="glass-card highlight-card reveal-up">
-                <div class="card-icon">📊</div>
-                <h3>Analytics Transparency</h3>
-                <p>Full visibility into what data is collected and how it's used.</p>
-            </div>
-            <div class="glass-card highlight-card reveal-up">
-                <div class="card-icon">⚡</div>
-                <h3>Real-Time Protection</h3>
-                <p>Instant response to security events and policy violations.</p>
-            </div>
-            <div class="glass-card highlight-card reveal-up">
-                <div class="card-icon">🎙</div>
-                <h3>Voice Privacy</h3>
-                <p>Voice analytics processed with strict privacy boundaries.</p>
-            </div>
-            <div class="glass-card highlight-card reveal-up">
-                <div class="card-icon">👥</div>
-                <h3>Community Safety</h3>
-                <p>Proactive tools to keep your community safe and compliant.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== INFORMATION WE COLLECT ===== -->
-    <section class="section section-dark" id="collect">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Data Collection</span>
-            <h2 class="section-title">Information We <span class="gradient-text">Collect</span></h2>
-            <p class="section-desc">We only collect data necessary for platform operations and security.</p>
-        </div>
-        <div class="collect-grid">
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">🆔</span> User IDs</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">🏠</span> Guild IDs</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">📎</span> Channel IDs</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">🎭</span> Role IDs</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">📝</span> Moderation Logs</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">🎤</span> Voice Analytics</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">⚙</span> Server Configuration</div>
-            <div class="glass-card collect-card reveal-up"><span class="collect-icon">🔐</span> Security Events</div>
-        </div>
-        <div class="collect-notice reveal-up">
-            <span class="notice-icon">ℹ️</span>
-            LOVE OF ART BOT does not permanently store message content unless required for moderation, security, compliance, or logging purposes.
-        </div>
-    </section>
-
-    <!-- ===== HOW DATA IS USED ===== -->
-    <section class="section" id="usage">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Data Usage</span>
-            <h2 class="section-title">How Data Is <span class="gradient-text">Used</span></h2>
-            <p class="section-desc">Your data powers essential platform features and security systems.</p>
-        </div>
-        <div class="usage-grid">
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">01</div>
-                <h3>Moderation Systems</h3>
-                <p>Automated moderation tools to keep communities safe.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">02</div>
-                <h3>Anti-Raid Protection</h3>
-                <p>Detect and prevent coordinated attacks in real-time.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">03</div>
-                <h3>Security Monitoring</h3>
-                <p>Continuous threat detection and incident response.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">04</div>
-                <h3>Voice Analytics</h3>
-                <p>Anonymous voice activity insights for server management.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">05</div>
-                <h3>Automation Systems</h3>
-                <p>Smart automation to streamline server operations.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">06</div>
-                <h3>Community Management</h3>
-                <p>Tools to manage and grow healthy communities.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">07</div>
-                <h3>Audit Logging</h3>
-                <p>Complete audit trail of all platform actions.</p>
-            </div>
-            <div class="glass-card usage-card reveal-up">
-                <div class="usage-number">08</div>
-                <h3>Platform Improvements</h3>
-                <p>Anonymous data to improve platform performance.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== SECURITY CENTER ===== -->
-    <section class="section section-dark" id="security">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Security Center</span>
-            <h2 class="section-title">Enterprise <span class="gradient-text">Security</span></h2>
-            <p class="section-desc">Military-grade protection for your Discord community.</p>
-        </div>
-        <div class="security-dashboard reveal-up">
-            <div class="dashboard-header">
-                <h3>Security Status Dashboard</h3>
-                <span class="status-badge operational">● Operational</span>
-            </div>
-            <div class="dashboard-grid">
-                <div class="dashboard-item">
-                    <span class="dash-label">System Status</span>
-                    <span class="dash-value status-up">● Operational</span>
-                </div>
-                <div class="dashboard-item">
-                    <span class="dash-label">API</span>
-                    <span class="dash-value status-up">● Online</span>
-                </div>
-                <div class="dashboard-item">
-                    <span class="dash-label">Infrastructure</span>
-                    <span class="dash-value status-up">● Secure</span>
-                </div>
-                <div class="dashboard-item">
-                    <span class="dash-label">Database</span>
-                    <span class="dash-value status-up">● Protected</span>
-                </div>
-            </div>
-        </div>
-        <div class="security-features-grid">
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">🔐</span></div>
-                <h3>AES Encryption</h3>
-                <p>Bank-grade 256-bit encryption for all data.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">🛡</span></div>
-                <h3>Threat Detection</h3>
-                <p>AI-powered real-time threat analysis.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">🔑</span></div>
-                <h3>Access Control</h3>
-                <p>Granular permissions and role-based access.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">📡</span></div>
-                <h3>Real-Time Monitoring</h3>
-                <p>24/7 surveillance of all platform activity.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">📋</span></div>
-                <h3>Audit Logs</h3>
-                <p>Complete immutable audit trail.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">✅</span></div>
-                <h3>Permission Validation</h3>
-                <p>Strict permission enforcement at every level.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">🚫</span></div>
-                <h3>Anti-Abuse Systems</h3>
-                <p>Automated abuse detection and prevention.</p>
-            </div>
-            <div class="glass-card security-feature reveal-up">
-                <div class="feature-icon"><span class="neon-icon">🏗</span></div>
-                <h3>Infrastructure Protection</h3>
-                <p>DDoS protection and network security.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== DATA RETENTION TIMELINE ===== -->
-    <section class="section" id="retention">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Data Lifecycle</span>
-            <h2 class="section-title">Data Retention <span class="gradient-text">Timeline</span></h2>
-            <p class="section-desc">How we handle your data from collection to permanent deletion.</p>
-        </div>
-        <div class="timeline reveal-up">
-            <div class="timeline-progress" id="timelineProgress"></div>
-            <div class="timeline-item active" data-step="1">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Data Collection</h4>
-                    <p>Information is collected only when necessary for platform operations.</p>
-                </div>
-            </div>
-            <div class="timeline-item" data-step="2">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Processing</h4>
-                    <p>Data is processed in secure, isolated environments.</p>
-                </div>
-            </div>
-            <div class="timeline-item" data-step="3">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Storage</h4>
-                    <p>Encrypted storage with redundant backup systems.</p>
-                </div>
-            </div>
-            <div class="timeline-item" data-step="4">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Retention</h4>
-                    <p>Data retained only as long as necessary for specified purposes.</p>
-                </div>
-            </div>
-            <div class="timeline-item" data-step="5">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Deletion</h4>
-                    <p>Secure, irreversible deletion upon request or policy expiry.</p>
-                </div>
-            </div>
-        </div>
-        <div class="timeline-actions reveal-up">
-            <div class="glass-card action-card">
-                <h4>📄 User Data Requests</h4>
-                <p>Submit a request to access your stored data.</p>
-            </div>
-            <div class="glass-card action-card">
-                <h4>📋 Data Retention Policies</h4>
-                <p>Review our detailed data retention schedules.</p>
-            </div>
-            <div class="glass-card action-card">
-                <h4>🗑 Server Removal Requests</h4>
-                <p>Request complete removal of server data.</p>
-            </div>
-            <div class="glass-card action-card">
-                <h4>❌ Permanent Deletion Requests</h4>
-                <p>Request irreversible deletion of all associated data.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== USER RIGHTS ===== -->
-    <section class="section section-dark" id="rights">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Your Rights</span>
-            <h2 class="section-title">Data <span class="gradient-text">Rights</span></h2>
-            <p class="section-desc">You have full control over your data. These are your rights.</p>
-        </div>
-        <div class="rights-grid">
-            <div class="glass-card rights-card reveal-up">
-                <div class="rights-icon">👁</div>
-                <h3>Right to Access Data</h3>
-                <p>Request a copy of all data we hold about you at any time.</p>
-            </div>
-            <div class="glass-card rights-card reveal-up">
-                <div class="rights-icon">🗑</div>
-                <h3>Right to Request Deletion</h3>
-                <p>Request permanent deletion of your personal data.</p>
-            </div>
-            <div class="glass-card rights-card reveal-up">
-                <div class="rights-icon">✏️</div>
-                <h3>Right to Request Corrections</h3>
-                <p>Update or correct any inaccurate personal information.</p>
-            </div>
-            <div class="glass-card rights-card reveal-up">
-                <div class="rights-icon">📋</div>
-                <h3>Right to Request Information</h3>
-                <p>Know exactly how your data is being processed and used.</p>
-            </div>
-            <div class="glass-card rights-card reveal-up">
-                <div class="rights-icon">💬</div>
-                <h3>Right to Contact Support</h3>
-                <p>Speak directly with our privacy team about any concerns.</p>
-            </div>
-            <div class="glass-card rights-card reveal-up">
-                <div class="rights-icon">🔍</div>
-                <h3>Right to Privacy Transparency</h3>
-                <p>Full visibility into our data practices and policies.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== THIRD PARTY SERVICES ===== -->
-    <section class="section" id="third-party">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Third Party</span>
-            <h2 class="section-title">Third Party <span class="gradient-text">Services</span></h2>
-            <p class="section-desc">We carefully vet all third-party services that interact with our platform.</p>
-        </div>
-        <div class="third-party-grid">
-            <div class="glass-card third-card reveal-up">
-                <div class="third-icon">💬</div>
-                <h3>Discord API</h3>
-                <p>Core platform integration via Discord's official API for bot operations, message handling, and server interactions.</p>
-            </div>
-            <div class="glass-card third-card reveal-up">
-                <div class="third-icon">🌐</div>
-                <h3>Cloudflare</h3>
-                <p>Content delivery, DDoS protection, and DNS management ensuring fast and secure global access.</p>
-            </div>
-            <div class="glass-card third-card reveal-up">
-                <div class="third-icon">☁️</div>
-                <h3>Hosting Infrastructure</h3>
-                <p>Enterprise cloud providers for scalable, redundant, and secure hosting of all services.</p>
-            </div>
-            <div class="glass-card third-card reveal-up">
-                <div class="third-icon">📈</div>
-                <h3>Analytics Services</h3>
-                <p>Privacy-preserving analytics to improve platform performance without compromising user data.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== CHILDREN'S PRIVACY ===== -->
-    <section class="section section-dark" id="children">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Children's Privacy</span>
-            <h2 class="section-title">Protecting <span class="gradient-text">Minors</span></h2>
-            <p class="section-desc">We take child safety and privacy extremely seriously.</p>
-        </div>
-        <div class="children-content reveal-up">
-            <div class="glass-card children-card">
-                <h3>📋 Age Requirements</h3>
-                <p>LOVE OF ART BOT complies with all applicable age restrictions. Users must meet Discord's minimum age requirements (13+ or 16+ in certain regions) to use the platform. We do not knowingly collect or process data from users below the legal age of digital consent.</p>
-            </div>
-            <div class="glass-card children-card">
-                <h3>🎮 Discord Requirements</h3>
-                <p>We adhere to Discord's Terms of Service and Community Guidelines regarding minor safety. All moderation and security features are designed with additional safeguards for communities that may include younger users.</p>
-            </div>
-            <div class="glass-card children-card">
-                <h3>🔒 Data Protection</h3>
-                <p>Enhanced privacy controls and data minimization practices are applied to any data potentially related to minors. We maintain strict access controls and retention limits for all user data.</p>
-            </div>
-            <div class="glass-card children-card">
-                <h3>🛡 Safety Measures</h3>
-                <p>Proactive content filtering, anti-harassment tools, and automated safety systems help protect all community members. Server administrators have access to additional safety configuration options.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== DATA DELETION REQUEST ===== -->
-    <section class="section" id="deletion">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Data Deletion</span>
-            <h2 class="section-title">Request Data <span class="gradient-text">Deletion</span></h2>
-            <p class="section-desc">We process all deletion requests within 24 hours.</p>
-        </div>
-        <div class="deletion-card glass-card reveal-up">
-            <div class="deletion-content">
-                <div class="deletion-item">
-                    <span class="deletion-label">Support Server</span>
-                    <a href="https://discord.gg/Rk4w7s5J6U" class="deletion-link" target="_blank" rel="noopener noreferrer">discord.gg/Rk4w7s5J6U</a>
-                </div>
-                <div class="deletion-item">
-                    <span class="deletion-label">Privacy Email</span>
-                    <a href="mailto:privacy@loveofartbot.com" class="deletion-link">privacy@loveofartbot.com</a>
-                </div>
-                <div class="deletion-item">
-                    <span class="deletion-label">Response Time</span>
-                    <span class="deletion-value">Under 24 Hours</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== FAQ SECTION ===== -->
-    <section class="section section-dark" id="faq">
-        <div class="section-header reveal-up">
-            <span class="section-tag">FAQ</span>
-            <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
-            <p class="section-desc">Everything you need to know about our privacy and security practices.</p>
-        </div>
-        <div class="faq-container reveal-up">
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>What data is stored?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>We store only essential data required for platform operations: User IDs, Guild IDs, Channel IDs, Role IDs, moderation logs, voice analytics (non-content), server configuration, and security event logs. We do not permanently store message content unless required for moderation or compliance purposes.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>How secure is the platform?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>LOVE OF ART BOT employs enterprise-grade security including AES-256 encryption, real-time threat detection, DDoS protection, strict access controls, comprehensive audit logging, and 24/7 security monitoring. Our infrastructure is hosted on secure, redundant cloud providers with regular security audits.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>Can I delete my data?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Yes, absolutely. You have the right to request permanent deletion of your data at any time. Contact our privacy team via the support server or email, and we will process your request within 24 hours. All data is permanently and irreversibly deleted.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>Who can access my information?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Access to user data is strictly limited to authorized personnel only, with granular role-based access controls. We never sell your data to third parties. Third-party services (Discord API, Cloudflare, hosting providers) interact with data only as necessary for platform operations under strict contractual agreements.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>How long is data retained?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Data is retained only as long as necessary for the purposes it was collected. Retention periods vary by data type and are documented in our detailed retention policies. Upon request or when retention periods expire, data is securely and permanently deleted.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>How do I contact support?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>You can reach us through our Discord Support Server at discord.gg/Rk4w7s5J6U, email us at privacy@loveofartbot.com, or use the contact section on this page. Our privacy team typically responds within 24 hours.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== ENTERPRISE SECURITY SHOWCASE ===== -->
-    <section class="section" id="showcase">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Enterprise Grade</span>
-            <h2 class="section-title">Security <span class="gradient-text">Showcase</span></h2>
-            <p class="section-desc">Our platform meets the highest enterprise security standards.</p>
-        </div>
-        <div class="showcase-grid reveal-up">
-            <div class="glass-card showcase-card">
-                <div class="showcase-label">Security Grade</div>
-                <div class="showcase-value grade-a">A+</div>
-            </div>
-            <div class="glass-card showcase-card">
-                <div class="showcase-label">Compliance</div>
-                <div class="showcase-value compliance">Excellent</div>
-            </div>
-            <div class="glass-card showcase-card">
-                <div class="showcase-label">Encryption</div>
-                <div class="showcase-value encryption">Enabled</div>
-            </div>
-            <div class="glass-card showcase-card">
-                <div class="showcase-label">Monitoring</div>
-                <div class="showcase-value monitoring">24/7</div>
-            </div>
-            <div class="glass-card showcase-card">
-                <div class="showcase-label">Privacy Rating</div>
-                <div class="showcase-value privacy">Enterprise</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== CONTACT SECTION ===== -->
-    <section class="section section-dark" id="contact">
-        <div class="section-header reveal-up">
-            <span class="section-tag">Get In Touch</span>
-            <h2 class="section-title">Contact Our <span class="gradient-text">Privacy Team</span></h2>
-            <p class="section-desc">We're here to help with any privacy or security concerns.</p>
-        </div>
-        <div class="contact-grid reveal-up">
-            <div class="glass-card contact-card">
-                <div class="contact-icon">💬</div>
-                <h3>Support Server</h3>
-                <p>Join our Discord community for direct support.</p>
-                <a href="https://discord.gg/Rk4w7s5J6U" class="btn btn-primary contact-btn" target="_blank" rel="noopener noreferrer">Join Server</a>
-            </div>
-            <div class="glass-card contact-card">
-                <div class="contact-icon">📧</div>
-                <h3>Privacy Email</h3>
-                <p>Send us an email for privacy-related inquiries.</p>
-                <a href="mailto:privacy@loveofartbot.com" class="btn btn-primary contact-btn">Send Email</a>
-            </div>
-            <div class="glass-card contact-card">
-                <div class="contact-icon">⏱</div>
-                <h3>Response Time</h3>
-                <p>We respond to all inquiries within 24 hours.</p>
-                <span class="response-badge">Under 24h</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== FOOTER ===== -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-main">
-                <div class="footer-brand">
-                    <span class="footer-logo">◆ LOVE OF ART <span class="gradient-text">BOT</span></span>
-                    <p class="footer-desc">Enterprise Discord Moderation, Security, Analytics, Automation, and Community Management Platform.</p>
-                    <div class="footer-social">
-                        <a href="https://discord.gg/Rk4w7s5J6U" class="social-link" aria-label="Discord" target="_blank" rel="noopener noreferrer">Discord</a>
-                        <a href="#" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        <a href="#" class="social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-col">
-                        <h4>Legal</h4>
-                        <a href="#privacy">Privacy Policy</a>
-                        <a href="#">Terms of Service</a>
-                        <a href="#rights">Data Rights</a>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Resources</h4>
-                        <a href="#security">Security</a>
-                        <a href="#faq">FAQ</a>
-                        <a href="#contact">Contact</a>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Community</h4>
-                        <a href="https://discord.gg/Rk4w7s5J6U" target="_blank" rel="noopener noreferrer">Support Server</a>
-                        <a href="#" target="_blank" rel="noopener noreferrer">Discord</a>
-                        <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© 2026 LOVE OF ART BOT. All Rights Reserved.</p>
-                <p>Made by <span class="gradient-text">CHRONICLES COMMUNITY</span></p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- ===== BACK TO TOP ===== -->
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
-
-    <script src="script.js" defer></script>
-</body>
-  </html>
+</html>
